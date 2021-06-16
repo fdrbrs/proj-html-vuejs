@@ -15,6 +15,10 @@
     font-weight: 600;
 }
 
+.pink{
+    color: #F9636B;
+}
+
 /* Body */
 
 body{
@@ -150,3 +154,20 @@ nav{
     margin-right: 2rem;
 }
 
+/* Site Main */
+
+.section_title{
+    font-size: 3rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.section_top_text{
+    padding-top: 3rem;
+}
+
+/* Services Section */
+
+#services{
+    height: 1100px;
+    text-align: center;
+}
