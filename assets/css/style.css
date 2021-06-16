@@ -3,3 +3,58 @@
     margin: 0;
     padding: 0;
 }
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* Body */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header{
+    background-color: blue;
+    height: 1020px;
+}
+
+/* Nav Bar */
+
+nav{
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#nav_logo{
+    display: flex;
+}
+
+#nav_logo img {
+    width: 60px;
+    filter: brightness(100);
+    width: 80px;
+    height: 80px;
+}
+
+#nav_logo_words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+#nav_logo_words_up{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+#nav_logo_words_down{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
