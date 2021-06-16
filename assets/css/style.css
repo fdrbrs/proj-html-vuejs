@@ -15,6 +15,17 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Buttons Classes */
+
+.button{
+    border-radius: 30px;
+    padding: 10px 17px 10px 17px
+}
+
+.button_blue{
+    background-color: turquoise;
+}
+
 /* Header */
 
 header{
@@ -57,4 +68,30 @@ nav{
 #nav_logo_words_down{
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+#nav_links{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#nav_links_list {
+    display: flex;
+    list-style: none;
+    
+}
+
+#nav_links_list li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+
+
+
+#nav_button{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
 }
