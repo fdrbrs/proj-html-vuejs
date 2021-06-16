@@ -9,6 +9,12 @@
     margin: auto;
 }
 
+/* Font classes */
+
+.bold{
+    font-weight: 600;
+}
+
 /* Body */
 
 body{
@@ -24,6 +30,10 @@ body{
 
 .button_blue{
     background-color: turquoise;
+}
+
+.button_red{
+    background-color: violet;
 }
 
 /* Header */
@@ -95,3 +105,48 @@ nav{
     align-items: center;
     margin-left: 40px;
 }
+
+/* Jumbotron */
+#jumbotron{
+    display: flex;
+}
+
+/* Jumbotron image */
+
+#jumbotron img{
+    width: 50%;
+    height: 10%;
+    margin-left: auto;
+}
+
+/* Jumbo Text */
+
+#jumbo_textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 920px;
+    width: 45%;
+}
+
+#jumbo_textbox span{
+    color: white;
+    font-size: 5rem;
+}
+
+#jumbo_textbox p{
+    color: #03A7D3E6;
+    padding: 3rem 0 5rem 0;
+}
+
+#jumbo_buttons{
+    display: flex;
+}
+
+#jumbo_buttons div{
+    font-size: 1.2rem;
+    color: white;
+    padding: 15px 45px 15px 45px;
+    margin-right: 2rem;
+}
+
