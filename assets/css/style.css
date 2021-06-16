@@ -198,3 +198,18 @@ nav{
     position: relative;
     top: 13rem;
 }
+
+/* Call To Action Section */
+
+#call_to_action{
+    height: 800px;
+    background-color: blue;
+}
+
+.container_cta{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
