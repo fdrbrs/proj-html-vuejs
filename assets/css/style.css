@@ -19,6 +19,10 @@
     color: #F9636B;
 }
 
+.title{
+    font-size: 5rem;
+}
+
 /* Body */
 
 body{
@@ -212,4 +216,15 @@ nav{
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+#cta_text{
+    color: white;
+    width: 50%;
+    margin-left: auto;
+}
+
+#cta_text p{
+    color: #03A7D3E6;
+    padding: 3rem 0 5rem 0;
 }
